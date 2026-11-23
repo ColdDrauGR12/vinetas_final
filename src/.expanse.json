@@ -1,6 +1,63 @@
 {
   "entrySpaceId": "b4c6fef8-3991-40ac-ba30-33b2c9516ce8",
   "objects": {
+    "03dee05a-af04-4967-be56-299ab09737bf": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.723,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 4,
+        "height": 4
+      },
+      "id": "03dee05a-af04-4967-be56-299ab09737bf",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/vineta_3.mp4"
+        },
+        "inreMaterial": "vineta_3"
+      },
+      "name": "Plano copia copia",
+      "order": 0.5338499429963522,
+      "parentId": "3003c082-fe7f-4ff7-a316-25e97e41cb99",
+      "position": [
+        0,
+        0,
+        0.008000000000000007
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1.0000000000000002
+      ],
+      "scale": [
+        0.25,
+        0.138,
+        0.25
+      ],
+      "shadow": {
+        "receiveShadow": true,
+        "castShadow": false
+      },
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
     "08177a0f-463b-4f43-96be-b3b9042e1557": {
       "components": {
         "__inre_aparicion__": {
@@ -67,6 +124,34 @@
         "loop": true,
         "paused": false
       }
+    },
+    "3003c082-fe7f-4ff7-a316-25e97e41cb99": {
+      "components": {},
+      "geometry": null,
+      "id": "3003c082-fe7f-4ff7-a316-25e97e41cb99",
+      "imageTarget": {
+        "name": "vineta_3_image"
+      },
+      "material": null,
+      "name": "Marcador · vineta_3_image",
+      "order": 5.5,
+      "parentId": "b4c6fef8-3991-40ac-ba30-33b2c9516ce8",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
     },
     "3d258220-704d-4930-9b07-d82db8b13654": {
       "components": {},
