@@ -1,0 +1,27 @@
+{
+  "imagePath": "image-targets/vineta_1_image_luminance.png",
+  "resources": {
+    "originalImage": "vineta_1_image_original.png",
+    "croppedImage": "vineta_1_image_cropped.png",
+    "thumbnailImage": "vineta_1_image_thumbnail.png",
+    "luminanceImage": "vineta_1_image_luminance.png"
+  },
+  "name": "vineta_1_image",
+  "type": "PLANAR",
+  "metadata": null,
+  "moveable": false,
+  "physicalWidthInMeters": null,
+  "properties": {
+    "top": 160,
+    "left": 0,
+    "width": 720,
+    "height": 960,
+    "isRotated": true,
+    "originalWidth": 720,
+    "originalHeight": 1280
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1795398385057,
+  "updated": 1795398385057
+}
