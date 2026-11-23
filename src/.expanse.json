@@ -96,6 +96,63 @@
         1
       ]
     },
+    "4e9c23c5-b945-496f-b0cd-1d55ef46c610": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.723,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 4,
+        "height": 4
+      },
+      "id": "4e9c23c5-b945-496f-b0cd-1d55ef46c610",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/vineta_2.mp4"
+        },
+        "inreMaterial": "vineta_2"
+      },
+      "name": "Plano copia",
+      "order": 0.6980127899102131,
+      "parentId": "ba7ffd3a-cf69-43ad-86fa-be9da6773f41",
+      "position": [
+        0,
+        -1.734723475976807e-18,
+        0.008000000000000005
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1.0000000000000002
+      ],
+      "scale": [
+        0.25,
+        0.138,
+        0.25
+      ],
+      "shadow": {
+        "receiveShadow": true,
+        "castShadow": false
+      },
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
     "82e35702-3ad4-4be9-be7c-26c6763e975b": {
       "components": {},
       "geometry": null,
@@ -135,6 +192,34 @@
       "material": null,
       "name": "Marcador · vineta_1_image",
       "order": 3.5,
+      "parentId": "b4c6fef8-3991-40ac-ba30-33b2c9516ce8",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "ba7ffd3a-cf69-43ad-86fa-be9da6773f41": {
+      "components": {},
+      "geometry": null,
+      "id": "ba7ffd3a-cf69-43ad-86fa-be9da6773f41",
+      "imageTarget": {
+        "name": "vineta_2_image"
+      },
+      "material": null,
+      "name": "Marcador · vineta_2_image",
+      "order": 4.5,
       "parentId": "b4c6fef8-3991-40ac-ba30-33b2c9516ce8",
       "position": [
         0,

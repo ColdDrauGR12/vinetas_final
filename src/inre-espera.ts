@@ -6,7 +6,7 @@
  * lienzo. Si algo falla dentro, se retira sola para no dejar la pantalla tapada.
  */
 
-const MARCADORES = ["vineta_1_image"]
+const MARCADORES = ["vineta_1_image","vineta_2_image"]
 
 /**
  * Cuenta las descargas en curso de archivos del proyecto (assets/ o blobs) para
